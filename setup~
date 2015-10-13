@@ -2,7 +2,7 @@
 
 
 # Import directories, and update
-sudo add-apt-repository -y "deb http://archive.ubuntu.com/ubuntu $(lsb_release -sc) main universe restricted multiverse"
+sudo add-apt-repository "deb http://archive.ubuntu.com/ubuntu $(lsb_release -sc) main universe restricted multiverse"
 sudo add-apt-repository ppa:webupd8team/java
 sudo apt-get update
 
@@ -19,7 +19,7 @@ sudo pip install virtualenvwrapper
 export WORKON_HOME=~/Envs
 mkdir -p $WORKON_HOME
 source /usr/local/bin/virtualenvwrapper.sh
-sudo pip install Django
+pip install Django
 
 # Other software ... Text editors, IDEs, etc.
 wget http://c758482.r82.cf2.rackcdn.com/Sublime\ Text\ 2.0.2\ x64.tar.bz2
@@ -30,7 +30,4 @@ git config --global user.name "JohnDevitt"
 git config --global user.email "johndevittire@gmail.com"
 git clone https://github.com/JohnDevitt/StartupScript ~/Desktop/StartupScript
 
-# Python test project
-git clone https://github.com/JohnDevitt/mysite ~/mysite
-cd mysite
-python manage.py migrate
+

@@ -11,6 +11,16 @@ sudo apt-get install -y git
 sudo apt-get install -y python-pip
 sudo apt-get install -y oracle-java8-installer
 
+# Install software with pip
+sudo pip install virtualenv
+sudo pip install virtualenvwrapper
+
+# For Python usage
+export WORKON_HOME=~/Envs
+mkdir -p $WORKON_HOME
+source /usr/local/bin/virtualenvwrapper.sh
+pip install Django
+
 # Other software ... Text editors, IDEs, etc.
 wget http://c758482.r82.cf2.rackcdn.com/Sublime\ Text\ 2.0.2\ x64.tar.bz2
 tar vxjf Sublime\ Text\ 2.0.2\ x64.tar.bz2
@@ -18,5 +28,6 @@ tar vxjf Sublime\ Text\ 2.0.2\ x64.tar.bz2
 # Configure Github
 git config --global user.name "JohnDevitt"
 git config --global user.email "johndevittire@gmail.com"
+git clone https://github.com/JohnDevitt/StartupScript ~/Desktop/StartupScript
 
 

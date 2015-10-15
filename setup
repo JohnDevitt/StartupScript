@@ -9,12 +9,14 @@ sudo apt-get update
 # Install software with apt-get, forcing any 'are you sure' type questions
 sudo apt-get install -y git
 sudo apt-get install -y python-pip
+sudo apt-get install -y python-dev
 echo oracle-java8-installer shared/accepted-oracle-license-v1-1 select true | sudo /usr/bin/debconf-set-selections
 sudo apt-get install -y oracle-java8-installer
 
 # Install software with pip
 sudo pip install virtualenv
 sudo pip install virtualenvwrapper
+sudo pip install moviepy
 
 # For Python usage
 export WORKON_HOME=~/Envs

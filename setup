@@ -32,8 +32,3 @@ tar vxjf Sublime\ Text\ 2.0.2\ x64.tar.bz2
 git config --global user.name "JohnDevitt"
 git config --global user.email "johndevittire@gmail.com"
 git clone https://github.com/JohnDevitt/StartupScript ~/Desktop/StartupScript
-
-# Python test project
-git clone https://github.com/JohnDevitt/mysite ~/mysite
-cd mysite
-python manage.py migrate

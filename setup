@@ -15,14 +15,6 @@ sudo apt-get install -y oracle-java8-installer
 
 # Install software with pip
 sudo pip install virtualenv
-sudo pip install virtualenvwrapper
-sudo pip install moviepy
-
-# For Python usage
-export WORKON_HOME=~/Envs
-mkdir -p $WORKON_HOME
-source /usr/local/bin/virtualenvwrapper.sh
-sudo pip install Django
 
 # Other software ... Text editors, IDEs, etc.
 wget http://c758482.r82.cf2.rackcdn.com/Sublime\ Text\ 2.0.2\ x64.tar.bz2

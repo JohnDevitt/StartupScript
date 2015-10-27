@@ -24,3 +24,4 @@ tar vxjf Sublime\ Text\ 2.0.2\ x64.tar.bz2
 git config --global user.name "JohnDevitt"
 git config --global user.email "johndevittire@gmail.com"
 git clone https://github.com/JohnDevitt/StartupScript ~/Desktop/StartupScript
+git clone https://github.com/JohnDevitt/montagemaker.git

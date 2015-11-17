@@ -25,3 +25,7 @@ git config --global user.name "JohnDevitt"
 git config --global user.email "johndevittire@gmail.com"
 git clone https://github.com/JohnDevitt/StartupScript ~/Desktop/StartupScript
 git clone https://github.com/JohnDevitt/montagemaker.git
+git clone https://github.com/JohnDevitt/cloud_project.git
+
+source ~/Desktop/cloud_project/venv/bin/activate
+pip install -r ~/Desktop/cloud_project/cloudproject/
